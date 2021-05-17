@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Running bootstrap"
+export RUST_BACKTRACE=1
+exec ./deduplicate-rust
